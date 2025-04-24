@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="2styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        <button id="logoutButton">Logout</button>
+        
+        <h2>Add Member</h2>
+        <form id="addMemberForm">
+            <label for="memberName">Name:</label>
+            <input type="text" id="memberName" name="memberName" required>
+            
+            <label for="memberEmail">Email:</label>
+            <input type="email" id="memberEmail" name="memberEmail" required>
+            
+            <label for="memberPackage">Package:</label>
+            <select id="memberPackage" name="memberPackage">
+                <option value="basic">Basic</option>
+                <option value="premium">Premium</option>
+            </select>
+            
+            <button type="submit">Add Member</button>
+        </form>
+
+        <h2>Members List</h2>
+        <table id="membersTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Package</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Members will be populated here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

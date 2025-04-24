@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <a href="# " class="logo">Fitness <span>center</span></a>
+    <nav>
+        
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><i class="fa-solid fa-xmark"></i></li>
+            <li><a href="./index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+           <li> <a href="./gym project/members.html">Services</a></li>
+           <li> <a href="./gym project/admin.html">About Us</a></li>
+           <li> <a href="./gym project/members.html"><i class="fa-solid fa-tags"></i>&nbsp;Subscription</a></li>
+           <li> <a href="./gym project/userprfile.html"><i class="fa-solid fa-user"></i>&nbsp;Sgin up</a></li>
+           
+        </ul>
+        
+        
+            <ul>
+               <li class=" hideOnMobile"><a href="./index.html"><i class="fa-solid fa-house"></i>&nbsp; Home</a></li>
+               <li class=" hideOnMobile"> <a href="./gym project/members.html">Services</a></li>
+               <li class=" hideOnMobile"> <a href="./gym project/details.html">About Us</a></li>
+               <li class=" hideOnMobile"> <a href="./gym project/members.html"><i class="fa-solid fa-tags"></i>&nbsp;Subscription</a></li>
+               <li class=" hideOnMobile"> <a href="./gym project/userprfile.html"><i class="fa-solid fa-user"></i>&nbsp;Sgin up</a></li>
+               <li onclick=showsidebar()><a href="#"><i class="fa-solid fa-caret-down"> </i></a></li>
+            </ul>
+ </nav>
+</header>
+ 
+<body>
+    <main>
+        <div class="text-center py-12">
+            <h1 class="text-3xl md:text-4xl font-bold">
+             Access
+             <span class="text-red-500">
+              Premium Gyms &amp; Fitness Centres
+             </span>
+             Near You
+            </h1>
+            <p class="text-lg md:text-xl mt-4">
+             With one membership, workout at 8,100+ fitness centres nationwide with 2,25,000+ workout sessions.
+            </p>
+            <button class="mt-6 px-6 py-3 border border-red-500 text-red-500 rounded-full hover:bg-red-500 hover:text-white transition duration-300">
+             Explore Studios
+             <i class="fas fa-arrow-right ml-2">
+             </i>
+            </button>
+           </div>
+           <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 px-4 md:px-12">
+            <div class="text-center">
+             <img alt="Person doing abs workout" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/42mbR7-UCfTiiHznCy-iyb1KBTGZ9RZbODKR-iU8mFw.jpg" width="300"/>
+             <h2 class="text-xl font-bold mt-4">
+              ABS
+             </h2>
+             <p class="text-gray-600">
+              Abs Workouts
+             </p>
+            </div><br>
+            <div class="text-center">
+             <img alt="Person doing cardio workout" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/mIvMuYMb1F5ctFCTnCBIbFZImINYV7OjbWKqiw6GOlU.jpg" width="300"/>
+             <h2 class="text-xl font-bold mt-4">
+              CARDIO
+             </h2>
+             <p class="text-gray-600">
+              Aerobics And Cardio Workouts
+             </p>
+            </div><br>
+            <div class="text-center">
+             <img alt="Person doing body tone workout" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/DZTUb2JP65oRBVIlWIfw9YZpQxF9TZdK9iZ2FthPFQs.jpg" width="300"/>
+             <h2 class="text-xl font-bold mt-4">
+              BODY TONE
+             </h2>
+             <p class="text-gray-600">
+              Body Tone And Conditioning Workouts
+             </p>
+            </div><br>
+            <div class="text-center">
+             <img alt="Person doing combat sports" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/889IJdq-4-BQeQybCusO9L5cKY8U57K9p4CCT1sAGwo.jpg" width="300"/>
+             <h2 class="text-xl font-bold mt-4">
+              COMBAT
+             </h2>
+             <p class="text-gray-600">
+              Combat Sports Classes
+             </p>
+            </div><br>
+            <div class="text-center">
+             <img alt="Person doing core workout" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/bYPp0H9-nR6DhAW10F-DGrXyESBVpnAhNYgnvR-zn9c.jpg" width="300"/>
+             <h2 class="text-xl font-bold mt-4">
+              CORE
+             </h2>
+             <p class="text-gray-600">
+              Core Workouts
+             </p>
+            </div><br>
+            <div class="text-center">
+             <img alt="Person doing dance workout" class="rounded-lg" height="300" src="https://storage.googleapis.com/a1aa/image/tswuaiZ57zuXgzGsR3hkjxEO7KYP-N_XUi8gqOEiLZo.jpg" width="300"/>
+             <h2 class="text-xl font-bold mt-4">
+              DANCE
+             </h2>
+             <p class="text-gray-600">
+              Dance Classes
+             </p>
+            </div>
+    </main><br>
+
+    <div class="text-center py-8">
+        <h1 class="text-3xl font-bold">Pick Your Plan</h1>
+        <p class="text-lg mt-2">Stay active wherever you are with a smart fitness membership, offering access to premium gyms and fitness centres in 75+ cities</p>
+    </div>
+    <div class="flex justify-center">
+        <div class="relative bg-gradient-to-r from-blue-100 to-blue-200 rounded-lg shadow-lg p-8 max-w-4xl">
+          <br>
+            <div class="text-center">
+                <h2 class="text-4xl font-bold text-blue-900">UNLOCK YOUR</h2><br>
+                <h2 class="text-5xl font-bold text-red-600">BEST SELF</h2><br>
+                <p class="text-xl font-semibold text-blue-900 mt-2">EXPERT-GUIDED FITNESS FOR TOTAL TRANSFORMATION</p><br>
+                <div class="mt-4">
+                    <a     href="https://www.google.co.in/">
+                    <button class="mt-6 px-6 py-3 border border-red-500 text-red-500 rounded-full hover:bg-red-500 hover:text-white transition duration-300" >
+                        Subscribe Now <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                </a>
+                </div>
+   
+
+    <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display ='flex'
+        }
+        function hidesidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display ='none';
+        }
+    </script><br>
+     <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div  class="l-1">
+                    <h4 class="h-4">Fitness Centres</h4><br>
+                    <p class="p-8">"Welcome to Fitness Centres, your premier fitness<br> destination! Our state-of-the-art gym features top-notch equipment,<br> clean facilities, and a supportive community that motivates and inspires.<br> With a variety of classes, programs, and expert trainers, we help you reach your fitness goals.<br> Conveniently located and open at flexible hours, <br>we're the perfect choice for fitness enthusiasts of all levels."</p>
+                </div>
+                <div class="l-2">
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="info" >
+                        <li ><a href="./index.html" >Home</a></li>
+                        <li><a href="./gym project/details.html">About</a></li>
+                        <li><a href="./gym project/user.html">Services</a></li>
+                        <li><a href="./gym project/userprfile.html">Sgin Up</a></li>
+                    </ul>
+                </div>
+                <div class="l-3">
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">info@example.com</li>
+                        <li class="text-gray-400">+1 (555) 123-4567</li>
+                    </ul>
+                </div>
+                <div class="l-3">
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 MyWebsite. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
